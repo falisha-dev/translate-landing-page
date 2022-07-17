@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Indie+Flower&family=Merriweather:wght@300&family=Montserrat:ital,wght@0,400;1,200&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <nav >
+            <span class="icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
+            <ul class="ul-navs">
+                <li class="nav-list">Home</a></li>
+                <li class="nav-list">About</a></li>
+                <li class="nav-list">Features</li>
+                <li class="nav-list btn">sign up
+                </li>    
+            </ul>
+        </nav>
+
+        <div class="home-page">
+           <div class="head">
+            <h1 class="head-h1">We Translate!</h1>
+            <p class="head-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolores voluptatibus animi officiis!
+            </p>
+            <form class="input-form">
+                <input type="text" placeholder="enter text">
+        
+            </form>
+            <button class="translate-btn btn--show-modal"> Translate...</button>
+            
+           </div>
+          
+            <img src="./trans-removebg-preview.png" alt="">
+
+        </div>
+
+
+
+        
+
+        <!-- output stuff -->
+        <div class="modal hidden">
+            <button class="btn--close-modal">&times;</button>
+            <form class="modal-form">
+                <div>Output is shown here Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Aperiam cum quaerat laudantium perferendis ut quod doloremque sed.
+                     Id repellendus expedita error vel. Molestias?#
+                     Aperiam cum quaerat laudantium perferendis ut quod doloremque sed.
+                     Id repellendus expedita error vel. Molestias?#
+                     Aperiam cum quaerat laudantium perferendis ut quod doloremque sed.
+                     Id repellendus expedita error vel. Molestias?#
+
+                </div>
+            </form>
+          </div>
+          <div class="overlay hidden"></div>
+    
+        </div>    
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
